@@ -174,7 +174,10 @@ nav {
   transition: var(--transition);
   cursor: pointer;
 }
-.nav-toggle:hover {
+#check{
+  display: none;
+}
+#check:checked ~ .nav-toggle {
   color: var(--clr-primary-1);
   transform: rotate(90deg);
 }
